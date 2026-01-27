@@ -85,7 +85,7 @@ footer .copyright p {
 }
 /* iPhone 4 device responsive ends here */
 /* small to medium screens responsive starts here */
-@media (min-width:341px) and (max-width: 991px) {
+@media (min-width:341px) and (max-width: 767px) {
     #loyalty_card .heading_Wrapper {
     padding: 0;
     }
@@ -220,6 +220,142 @@ footer .copyright p.dev_copy {
 }
 }
 /* small to medium screens responsive ends here */
+/* medium device responsive starts here */
+@media (min-width:768px) and (max-width: 991px){
+    #loyalty_card .heading_Wrapper {
+    padding: 0;
+    }
+#loyalty_card::before {
+    width: 70px;
+    height: 70px;
+}
+.end_para {
+    font-size: 10px;
+}
+#loyalty_card .details p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.card_wrapper {
+    margin-top: 15px;
+}
+.loyalty_card_details .card_details {
+    width: 250px;
+}
+#loyalty_card .loyalty_card_details .card_details {
+    width: 60%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+#loyalty_card .date{
+    width: fit-content;
+}
+#loyalty_card .discount {
+    top: -1px;
+    right: 122px;
+}
+#loyalty_card h4 {
+    text-align: center;
+}
+#loyalty_card::after {
+    width: 70px;
+    height: 70px;
+}
+    #loyalty_card .membershipBenefits p{
+        font-size: 14px;
+    }
+    #loyalty_card .membershipBenefits span{
+        margin-left: 3px;
+    }
+    #loyalty_card .ctaBtn {
+    width: 97%;
+    height: 45px;
+    padding: 10px 15px;
+}
+   #loyalty_card .ctaBtn a {
+    padding: 0px 232px;
+}
+#location {
+    padding: 10px 0 40px 0;
+}
+#location .heading p{
+    margin: 15px 0;
+    font-size: 14px;
+}
+#location .location_info {
+    padding: 12px 11px;
+    margin: 15px 0 15px 0;
+    text-align: center;
+    height: 160px;
+}
+#location .location_info h6 {
+    margin: 10px 0;
+    text-align: center;
+}
+#location .location_info p {
+    font-size: 13px;
+}
+#location .location_info span{
+    display: block;
+    text-align: center;
+}
+#location .location_info a {
+    display: inline-block;
+    margin-top: 11px;
+}
+#location .opening_info h4 {
+    text-align: center;
+}
+#location .opening_info .special_offer .special_offer_details p {
+    font-size: 12px;
+}
+#location .opening_info .special_offer .special_offer_details h6{
+    font-size: 14px;
+}
+#reservation{
+    padding: 0;
+}
+footer {
+    padding: 20px 0 20px 0;
+}
+footer .rest_descrip h4 {
+    font-size: 25px;
+    text-align: center;
+}
+footer .contact_us h4{
+    font-size: 16px;
+    text-align: center;
+}
+footer .contact_wrapper ul li.loc_icon {
+    margin-bottom: 24px;
+    margin-right: 7px;
+}
+footer .newsletter .news_wrapper input {
+    width: 200px;
+    height: 45px;
+    padding: 5px 12px;
+    margin-right: 0px;
+}
+footer .newsletter .news_wrapper a {
+    padding: 10px 11px;
+    font-size: 16px;
+}
+footer .copyright p.rest_copy {
+    border-right: none;
+    padding-right: 0;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+footer .copyright p.dev_copy {
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+}
+}
+/* medium device responsive ends here */
 /* large screens responsive starts here */
 @media (min-width: 992px) and (max-width: 1199.98px){
     #loyalty_card .discount {
